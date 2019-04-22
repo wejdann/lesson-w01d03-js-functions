@@ -243,6 +243,42 @@ calculator(1, 2, "something else") // should return "calculator can only add, su
 calculator("cat", 2, "add") // should return "calculator only accepts numbers"
 ```
 
+### Lab: FizzBuzz Function
+
+Write a function that accepts an argument of a number
+
+If it is a multiple of 3, return “Fizz” instead of the number.
+
+If it is a multiple of 5, return “Buzz” instead of the number.
+
+If it is a multiple of both 3 and 5, return “FizzBuzz” instead of the number.
+
+Otherwise, return the number
+
+```js
+fizzBuzz(3) // Fizz
+fizzBuzz(15) // FizzBuzz
+rainDrop(7) // 7
+```
+
+### Lab: RainDrop Function
+
+Write a function that accepts an argument of a number
+
+If the number contains 3 as a factor, output 'Pling'.
+
+If the number contains 5 as a factor, output 'Plang'.
+
+If the number contains 7 as a factor, output 'Plong'.
+
+If the number does not contain 3, 5, or 7 as a factor, output the number as a string.
+
+```js
+rainDrop(28) // Plong
+rainDrop(1755) // PlingPlang
+rainDrop(34) // 34
+```
+
 ## Additional Resources
 
 - [Functions Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
