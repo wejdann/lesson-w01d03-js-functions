@@ -57,9 +57,9 @@ printHello("World");
 
 // invoke function as many times as we want
 printHello("World");
-printHello("Mike");
-printHello("Sami");
-printHello("Ahmad");
+printHello("Usman");
+printHello("Marc");
+printHello("Alanoud");
 ```
 
 When we define a function that accepts data, we call the key word that will represent the data a `parameter`.
@@ -201,17 +201,33 @@ The important piece to remember is that you need the `return` keyword to return
 a value. If you forget it or choose not to include it, the function still
 returns something to the caller, and it will be `undefined`.
 
+### Function Expressions vs. Function Declarations
+
+There is more then one way to write a function. In this lesson we covered writing functions as **Expressions**. But you could also write your functions as **Declarations**. Although, it is not recommended. But you will find code on the job that uses the later format.
+
+**Example: Function Expression**
+
+```js
+const doSomething = function() {}
+```
+
+**Example: Function Declaration**
+
+```js
+function doSomething() {}
+```
+
 ### Lab: Functions
 
 Create a file named `functions.js`.
 
 1.  Define a `youRock` function that accepts a string argument of a name and returns a string using that name.
 ```js
-youRock('Sami') // 'You rock Sami!'
-youRock('Ahmad') //'You rock Ahmad!'
+youRock('Marc') // 'You rock Marc!'
+youRock('Alanoud') //'You rock Alanoud!'
 ```
 
-2.  Define a `square` function that accepts a number argument and returns that number multipled by itself.
+2.  Define a `square` function that accepts a number argument and returns that number multiplied by itself.
 ```js
 square(2) // 4
 square(3) // 9
