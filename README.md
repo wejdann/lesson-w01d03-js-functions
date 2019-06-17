@@ -217,6 +217,10 @@ const doSomething = function() {}
 function doSomething() {}
 ```
 
+### Recursion
+
+Let's talk about [Recursion](README.md).
+
 ### Lab: Functions
 
 Create a file named `functions.js`.
