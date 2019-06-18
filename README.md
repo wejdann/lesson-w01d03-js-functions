@@ -112,8 +112,8 @@ const subtract = function (num1, num2) {
   console.log(num1 - num2);
 }
 
-add(1, 10);
-add(10, 1);
+subtract(1, 10);
+subtract(10, 1);
 ```
 
 Notice how the order matters.  The first `argument` will always be assigned to the first `parameter`.
