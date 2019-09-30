@@ -58,8 +58,9 @@ printHello("World");
 // invoke function as many times as we want
 printHello("World");
 printHello("Usman");
-printHello("Marc");
-printHello("Alanoud");
+printHello("Reem");
+printHello("Hazim");
+printHello("Mansour");
 ```
 
 When we define a function that accepts data, we call the key word that will represent the data a `parameter`.
@@ -116,13 +117,13 @@ subtract(1, 10);
 subtract(10, 1);
 ```
 
-Notice how the order matters.  The first `argument` will always be assigned to the first `parameter`.
+Notice how the order matters. The first `argument` will always be assigned to the first `parameter`.
 
 ### Demo: Return Values
 
 In mathematics, a function maps one or more inputs to a single output.
 
-In javascript, we also often prefer functions to return us an output instead of `console.log` the output.
+In JavaScript, we also often prefer functions to return us an output instead of `console.log` the output.
 
 ```js
 const five = function () {
@@ -134,7 +135,7 @@ const add = function (a, b) {
 }
 
 const adder = function (a, b) {
-  a + b // returns undefined, not the sum of a + b
+  a + b; // returns undefined, not the sum of a + b
 }
 
 const fiveSum = five(); // 5
@@ -151,7 +152,7 @@ REPEAT, `console.log` does *not* return a value (it returns `undefined`).
 
 ### Code Along: Parameters and Arguments
 
-When you create a function, you specify the parameters.  When you call a
+When you create a function, you specify the parameters. When you call a
 function, you specify the arguments (which are the values that the parameters
 are set to when your function executes).
 
@@ -159,19 +160,19 @@ In JavaScript, functions can be defined as taking zero or more arguments.
 
 ```js
 const zero = function () {
-  return 0
+  return 0;
 }
 
 // You call this function by writing: `zero()`
 
 const one = function (param) {
-  return param
+  return param;
 }
 
 // You call this function by writing: `one('argumentExample')`
 
 const three = function (param1, param2, param3) {
-  return param2
+  return param2;
 }
 
 // You call this function by writing: `three(1, 'two', false)`
@@ -185,7 +186,7 @@ Let's create a function that will accept in any number and add one to it.
 
 ```js
 const addOne = function (num) {
-  return num + 1
+  return num + 1;
 }
 ```
 
@@ -193,7 +194,7 @@ Let's create a function that will accept in a first name and last name to create
 
 ```js
 const fullName = function (firstName, lastName) {
-  return firstName + " " + lastName
+  return firstName + " " + lastName;
 }
 ```
 
@@ -227,8 +228,9 @@ Create a file named `functions.js`.
 
 1.  Define a `youRock` function that accepts a string argument of a name and returns a string using that name.
 ```js
-youRock('Marc') // 'You rock Marc!'
-youRock('Alanoud') //'You rock Alanoud!'
+youRock('Reem') // 'You rock Reem!'
+youRock('Hazim') //'You rock Hazim!'
+youRock('Mansour') //'You rock Mansour!'
 ```
 
 2.  Define a `square` function that accepts a number argument and returns that number multiplied by itself.
