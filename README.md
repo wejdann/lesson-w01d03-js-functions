@@ -58,9 +58,9 @@ printHello("World");
 // invoke function as many times as we want
 printHello("World");
 printHello("Usman");
-printHello("Reem");
-printHello("Hazim");
-printHello("Mansour");
+printHello("Mohammad");
+printHello("Hisham");
+printHello("Sager");
 ```
 
 When we define a function that accepts data, we call the key word that will represent the data a `parameter`.
@@ -228,9 +228,9 @@ Create a file named `functions.js`.
 
 1.  Define a `youRock` function that accepts a string argument of a name and returns a string using that name.
 ```js
-youRock('Reem') // 'You rock Reem!'
-youRock('Hazim') //'You rock Hazim!'
-youRock('Mansour') //'You rock Mansour!'
+youRock('Mohammad') // 'You rock Mohammad!'
+youRock('Hisham') //'You rock Hisham!'
+youRock('Sager') //'You rock Sager!'
 ```
 
 2.  Define a `square` function that accepts a number argument and returns that number multiplied by itself.
